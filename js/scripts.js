@@ -1,3 +1,3 @@
-var surveyData = [{
-    
-}]
+function verifyDayValidity() {
+    console.log
+}
