@@ -34,5 +34,13 @@ function verifyYearValidity() {
 }
 
 function verifyGenderVadility() {
-    var (input) =document.getElementById("gender")
+    var input =document.getElementById("gender").value;
+    if (input == "m" || input == "f") {
+        return input;
+    } else {
+        alert(" Please input m or f for gender");
+        return undefined;
+    }
 }
+
+function
