@@ -44,5 +44,6 @@ function verifyGenderVadility() {
 }
 
 function calculateAkanName() {
-    document.getElementById()
+    document.getElementById("result").innerText = "";
+    console.log
 }
