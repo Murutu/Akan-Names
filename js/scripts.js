@@ -23,5 +23,16 @@ function verifyDayValidity() {
 }
 
 function verifyYearValidity() {
-    
+    console.log("Verify year");
+    var input = document.getElementById("year").value;
+    console.log (input && input.length == 4) {
+        return parseInt(input);
+    } else {
+        alert("Please input a four digit number for year");
+        return undefined;
+    }
+}
+
+function verifyGenderVadility() {
+    var (input) =document.getElementById("gender")
 }
