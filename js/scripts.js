@@ -45,5 +45,58 @@ function verifyGenderVadility() {
 
 function calculateAkanName() {
     document.getElementById("result").innerText = "";
-    console.log
+    console.log("Calculating Akan");
+    var day = checkVadility();
+    if (!day) {
+        console.log("day is invalid")
+        return;
+    }
 }
+
+var month =verifyMonthValidity();
+if (!month) {
+    console.log("month is ivnalid");
+    return;
+}
+
+var year =checkYearValidity();
+if (!month) {
+    console.log("year is invalid");
+    return;
+}
+
+var gender =checkGenderVadility();
+if (!gender) {
+    console.log("gender is invalid");
+    return;
+}
+console.log("Day",day,"Month",month,"Year",year,"Gender", gender);
+
+var cc = Math.floor(year/100);
+var yy = year % 100;
+var names = {
+    m: {
+        0: "Kwasi",
+        1: "Kwadwo",
+        2: "Kwabena",
+        3: "Kwaku",
+        4: "Yao",
+        5: "Kofi",
+        6: "Kwamena",
+      },
+      f: {
+          0: "Akosua",
+          1: "Adwoa",
+          2: "Abena",
+          3: "Akua",
+          4: "Yaa",
+          5: "Afua",
+          6: "Amma",
+    }
+} ;
+
+var dayOfWeek =
+((Math.floor(cc / 4)-(2 * cc)-1) + (Math.floor(5 * yy / 4)) + Math.floor ((26 * (month + 1)) / 10) + day) % 7;
+console.log("day of week is", dayOfWeek);
+var result = names[gender][dayOfWeek]
+document.getElementById("result").innerText="Akan name is:" + result;

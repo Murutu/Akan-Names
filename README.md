@@ -8,7 +8,7 @@ This is a website with great details in it, its purpose is to show the work I do
 Setup/Installation Requirements
 Download the project and open the index.html file in your browser.
 Technologies Used
-*html *css
+*html *css *jss
 
 Support and contact details
 https://murutu.github.io//
