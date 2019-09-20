@@ -14,5 +14,14 @@ function verifyDayValidity() {
     console.log("Verify month");
     var input = document.getElementById("month").value;
     console.log (input);
-    if 
+    if (!parseInt(input) || parseInt(input) <1 || parseInt (input) >12) {
+        alert(" Please input a number between 1 and 12 for month");
+        return undefined;
+    } else {
+        return parseInt(input);
+    }
+}
+
+function verifyYearValidity() {
+    
 }
