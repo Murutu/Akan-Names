@@ -43,4 +43,6 @@ function verifyGenderVadility() {
     }
 }
 
-function
+function calculateAkanName() {
+    document.getElementById()
+}
