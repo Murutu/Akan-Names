@@ -25,7 +25,7 @@ Technologies Used
 *html *css *jss
 
 Support and contact details
-https://murutu.github.io//
+https://github.com/Murutu/Akan-Names
 
 License
 MIT license
