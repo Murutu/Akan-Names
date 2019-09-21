@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan Names</title>
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <div class="col-md-7"></div>
-        <div class="col-md-5"></div>
         <div class="jumbotron">
             <h1>Choose Your Akan Name</h1>
-            <img src="pictures/ghanaianch.jpg" width="300" height="181" alt="/pictures/ghanaianch.jpg">
             <p>In this form you will be able to require specific details about the day you were born.</p>
-            <p>Akan names are derived from Ghanaian culture.Frequently in Ghana,children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
+            <p>Akan names are derived from Ghanaian culture.Frequently in Ghana,children are given their first name as a
+                'day name' which corresponds to the day in the week they were born. </p>
         </div>
+                <script src="js/scripts.js"></script>
         <div class="card bg-primary">
             <div class="card-body">
                 <h1>Text box</h1>
+                <img src="pictures/ghana" width="300" height="181">
                 <div class="card-footer">
                     <p>This is a form to assist the people who know their birthdays and also to help those who do not
                         know the specific date they were born.</p>
-                    <p>Year</p><input type="number" />
-                    <p>Month</p><input type="number" />
-                    <p>Day</p><input type="number" />
-                    <p>Gender</p><input type="radio" />Male
-                    <input type="radio" />Female
-                    <button type="button">submit</button>
+                        <p>Below in the input "Gender" you will be required to enter M meaning male and F meaning Female to get your specific details.</p>
+                    <input id="day" type="number" placeholder="Day" min="1" max="31" required /><br>
+                    <input id="month" type="number" placeholder="Month" min="1" max="12" required /><br>
+                    <input id="year" type="text" placeholder="Year" required /><br>
+                    <input id="gender" type="text" placeholder="Gender" required /><br>
+                    <button class="button" onclick="calculateAkanName()">Submit</button>
                 </div>
             </div>
         </div>
-    </div>
+        <p id="result"></p>
+
 </body>
 
 </html>

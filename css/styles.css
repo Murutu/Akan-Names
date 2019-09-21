@@ -1,6 +1,8 @@
 body {
-    background-color: gold;
+    background-color: rgb(196, 135, 4);
 }
 h1{
-    color:
+    color:black;
+    font-style: oblique;
+    text-align:center;
 }
