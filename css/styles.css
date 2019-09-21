@@ -1,8 +1,10 @@
 body {
-    background-image:
+    background-image:url(/pictures/cl.jpeg);
+    background-size: cover;
 }
 h1{
     color:black;
     font-style: oblique;
     text-align:center;
 }
+
