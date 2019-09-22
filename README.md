@@ -9,7 +9,7 @@ This is a website with great details in it, its purpose is to show the work I do
 
 BDD
 
-To be able to get your birthday details and name you will be required to:
+To be able to get your details about your name you will be required to:
 First enter the day you were born.
 Secondly enter the month you were born.
 Thirdly enter the year you were born.
