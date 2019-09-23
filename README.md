@@ -1,5 +1,5 @@
 Akan names
-####This is a web application  and it contains information about the ghanaian people and their specific names }, {Sept 19,2019}
+This is a web application  and it contains information about the ghanaian people and their specific names }, {Sept 19,2019}
 
 Author Peter Murutu.
 
